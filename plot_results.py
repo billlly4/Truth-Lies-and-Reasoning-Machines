@@ -8,7 +8,6 @@ summary, meta = compute_metrics("results/annotation_table.csv")
 
 x = summary["condition"].tolist()
 
-# Convert None -> NaN (matplotlib can't plot None)
 acc_first = np.array([np.nan if v is None else float(v) for v in summary["acc_first"]])
 acc_verified = np.array([np.nan if v is None else float(v) for v in summary["acc_verified"]])
 

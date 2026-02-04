@@ -3,7 +3,7 @@ from src.evaluation import build_annotation_csv
 df = build_annotation_csv(
     jsonl_path="results/raw_outputs_hf.jsonl",
     out_csv_path="results/annotation_table_hf.csv",
-    auto_prefill=True,   # safe prefill (only when Best Answer appears as substring)
+    auto_prefill=True,  
 )
 
 print("Wrote results/annotation_table_hf.csv")

@@ -7,7 +7,7 @@ from huggingface_hub import InferenceClient
 
 @dataclass
 class HFConfig:
-    name: str                      # model id, e.g. "Qwen/Qwen2.5-7B-Instruct"
+    name: str                      # model id "Qwen/Qwen2.5-7B-Instruct"
     token_env: str = "HF_TOKEN"
     temperature: float = 0.2
     max_tokens: int = 512
