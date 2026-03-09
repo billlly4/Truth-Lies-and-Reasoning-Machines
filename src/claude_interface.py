@@ -9,7 +9,6 @@ import anthropic
 from dotenv import load_dotenv
 
 # Load .env from the project root:
-# F:\university\milan\NLP\project\.env
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 
