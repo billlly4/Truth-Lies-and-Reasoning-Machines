@@ -122,6 +122,6 @@ if __name__ == "__main__":
     print_verification_table(df)
 
     plot_correction_regression(df)
-    plot_accuracy_delta(df)
+    # plot_accuracy_delta(df)
 
-    print("\nDone. See plots/2a, 2b.")
+    print("\nDone. See plot 2a.")

@@ -88,7 +88,7 @@ data/
 │   ├── annotation_table_qwen.csv
 │   └── plots/
 │        ├── 1c_hallucination.png
-│        ├── 2a_correction_regression.png
+│        ├── 2a_accuracy_first.png
 │        ├── 2b_accuracy_delta.png
 │        ├── 3a_category_accuracy.png
 │        └── 3b_category_heatmap.png
@@ -220,7 +220,6 @@ Produces:
 
 ```
 results/plots/2a_correction_regression.png
-results/plots/2b_accuracy_delta.png
 ```
 
 ---
