@@ -3,7 +3,7 @@ load_dotenv()
 
 from src.runner import run
 
-from src.hf_interface import HFConfig, HFChatModel
+from qwen_interface import HFConfig, HFChatModel
 model = HFChatModel(HFConfig(name="Qwen/Qwen2.5-7B-Instruct"))
 
 run(

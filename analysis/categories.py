@@ -77,7 +77,7 @@ def plot_category_accuracy(df):
     ax.grid(axis="x", linestyle="--", alpha=0.4)
 
     plt.tight_layout()
-    path = "results/plots/3a_category_accuracy.png"
+    path = "../results/plots/3a_category_accuracy.png"
     fig.savefig(path, bbox_inches="tight")
     print(f"Saved → {path}")
     plt.close()
@@ -121,7 +121,7 @@ def plot_category_heatmap(df):
         ax.tick_params(axis="x", rotation=0)
 
     plt.tight_layout()
-    path = "results/plots/3b_category_heatmap.png"
+    path = "../results/plots/3b_category_heatmap.png"
     fig.savefig(path, bbox_inches="tight")
     print(f"Saved → {path}")
     plt.close()

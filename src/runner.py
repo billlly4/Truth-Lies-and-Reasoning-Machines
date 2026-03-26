@@ -6,7 +6,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 from .data_loader import load_truthfulqa_csv, make_subset
-from .model_interface import BaseModel
+from .claude_interface import BaseModel
 from .prompts import SYSTEM_INSTRUCTION, all_conditions, build_self_check
 
 

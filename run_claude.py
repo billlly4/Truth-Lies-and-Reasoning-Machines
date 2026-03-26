@@ -1,4 +1,4 @@
-from src.model_interface import ModelConfig, ClaudeChatModel
+from claude_interface import ModelConfig, ClaudeChatModel
 from src.runner import run
 
 model = ClaudeChatModel(ModelConfig(name="claude-haiku-4-5-20251001"))

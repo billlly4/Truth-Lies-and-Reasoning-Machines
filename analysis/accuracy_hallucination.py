@@ -109,7 +109,7 @@ def plot_hallucination(df):
     ax.grid(axis="y", linestyle="--", alpha=0.5)
 
     plt.tight_layout()
-    path = "results/plots/1c_hallucination.png"
+    path = "../results/plots/1c_hallucination.png"
     fig.savefig(path, bbox_inches="tight")
     print(f"Saved → {path}")
     plt.close()
